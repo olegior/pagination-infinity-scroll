@@ -1,0 +1,33 @@
+.spinner {
+    background-image: url('/pokeball.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
+
+@-webkit-keyframes rotating {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotating {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    -webkit-animation: rotating 1s ease-in-out infinite;
+    animation: rotating 1s ease-in-out infinite;
+}

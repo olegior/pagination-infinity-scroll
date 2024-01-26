@@ -1,0 +1,34 @@
+.input-number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.input-number__text {
+    font-size: 1.5rem;
+}
+
+.input-number__input {
+    width: 64px;
+    height: 62px;
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: 'Pokemon solid', sans-serif;
+}
+
+.input-number__input:hover {
+    outline: 2px solid #646cff;
+}
+
+@media (max-width: 540px) {
+    .input-number {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,30 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 320px;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .container {
+  flex-direction: column;
+}
+
+.main .input-number__input {
+  border-color: #c25375;
+}
+
+.active {
+  color: blue;
+}

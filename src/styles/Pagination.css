@@ -1,0 +1,37 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 10px;
+}
+
+.pagination__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 20px 0;
+}
+
+.pagination__buttons .active {
+    border-color: blue;
+    transform: scale(1.1);
+    border-width: 2px;
+}
+
+@media (max-width: 768px) {
+
+    .pagination__buttons {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .pagination {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+}
